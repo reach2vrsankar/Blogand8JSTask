@@ -1,0 +1,17 @@
+2. Give a write-up on the Difference between copy by value and copy by reference.
+->JavaScript has 5 data types that are copied by value: Boolean, null, undefined, String, and Number. We’ll call these primitive types.
+
+->JavaScript has 3 data types that are copied by having their reference copied: Array, Function, and Object. These are all technically Objects, so we’ll refer to them collectively as Objects.
+	Now let's take an example of copy by reference. In fact let's take your example of copy by reference:
+
+		var objA = {a: 1};
+		var objB = objA;
+		objA.a = 2;
+		objB.a; // 2
+3. How to copy by value a composite datatype (array+objects).
+	->Using the spread ( ... ) operator.
+	->Using the Object.assign() method.
+	->Using the JSON.stringify() and JSON.parse() methods.
+
+
+

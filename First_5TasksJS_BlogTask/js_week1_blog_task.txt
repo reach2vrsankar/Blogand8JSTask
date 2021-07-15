@@ -1,0 +1,54 @@
+1. difference between HTTP1. 1 vs HTTP2:
+
+->Page load speed improvements trough:
+->Compression of request headers
+->Binary protocol
+->HTTP/2 Server Push
+->Request multiplexing over a single TCP connection
+->Request pipelining
+->HOL blocking (Head-of-line) — Package blocking
+
+2. http version history:
+->HTTP/0.9 – The one-line protocol
+	GET /mypage.html
+->HTTP/1.0 – Building extensibility
+	HTTP headers
+->HTTP/1.1 – The standardized protocol
+->More than 15 years of extensions
+	->Using HTTP for secure transmissions
+	->Using HTTP for complex applications
+	->Relaxing the security-model of the Web
+	->
+->HTTP/2 – A protocol for greater performance
+->HTTP/3 - HTTP over QUIC
+
+3. List 5 difference between Browser js console vs Node js
+
+-> Browser js console:
+	->Javascript is a programming language that is used for writing scripts on the website.
+	->Javascript can only be run in the browsers.
+	->It is basically used on the client-side.
+	->Javascript is capable enough to add HTML and play with the DOM.
+	->Javascript can run in any browser engine as like JS core in safari and Spidermonkey in Firefox.
+	->Javascript is used in frontend development.
+
+->Node js :
+	->NodeJS is a Javascript runtime environment.
+	->NodeJS code can be run outside the browser.
+	->It is mostly used on the server-side.
+	->Nodejs does not have capability to add HTML tags.
+	->Nodejs can only run in V8 engine of google chrome.
+	->Nodejs is used in server-side development.
+4. what happens when you type a URL in the address bar in the browser
+    1) You enter a URL into a web browser
+    2) The browser looks up the IP address for the domain name via DNS
+    3) The browser sends a HTTP request to the server
+    4) The server sends back a HTTP response
+    5) The browser begins rendering the HTML
+    6) The browser sends requests for additional objects embedded in HTML (images, css, JavaScript) and repeats steps 3-5.
+    7) Once the page is loaded, the browser sends further async requests as needed.
+
+
+
+
+
